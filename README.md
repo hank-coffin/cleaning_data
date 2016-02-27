@@ -1,2 +1,2 @@
-# cleaning_data
-Contains files for Getting and Cleaning Data Course Project
+# Getting and Cleaning Data Course Project
+
