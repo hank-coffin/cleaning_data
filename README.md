@@ -3,7 +3,7 @@ _February 27, 2016_
 
 ## Overview
 This project reads several data files, combines them, filters out unwanted measurements, and finally summarizes the data.
-One data set is generated and saved as a csv file (**final_summary.csv**).
+One data set is generated and saved as a txt file (**final_summary.txt**).
 
 
 I believe I have satisfied all of the requirements of the project:
@@ -30,7 +30,7 @@ I believe I have satisfied all of the requirements of the project:
   * Done - I used _subject.id_ and _activity_ for the two id columns.  
            I left the feature variable names intact.  There are many of them, approximately 80.  They are descriptive enough for someone familiar with the data.  Modifying them would require a lookup table.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-  * Done - please see **final_summary.csv**
+  * Done - please see **final_summary.txt**
 
 ## Deliverable Files
 | File                  | Description                              |
@@ -38,7 +38,7 @@ I believe I have satisfied all of the requirements of the project:
 | **README.md**         | This file                                |
 | **CodeBook.md**       | The codebook                             |
 | **run_analysis.R**    | The script used to generate the datasets |
-| **final_summary.csv** | The finished dataset, in csv format      |
+| **final_summary.txt** | The finished dataset, in txt format      |
 
 
 ## Input Files
@@ -47,7 +47,7 @@ I believe I have satisfied all of the requirements of the project:
 This zip/archive contains the original data files in their original layout.
 None of the data files have been edited.  
 The script run_analysis.R should run with the data files in their original structure as below.
-The output file **final_summary.csv** is created in the same directory as **run_analysis.R**.
+The output file **final_summary.txt** is created in the same directory as **run_analysis.R**.
 
 * run_analysis.R
 * data\
