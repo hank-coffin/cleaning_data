@@ -27,7 +27,8 @@ I believe I have satisfied all of the requirements of the project:
 3. Uses descriptive activity names to name the activities in the data set
   * Done - I used the activity labels from  _./data/activity_labels.txt_ to replace the activity ids in the data set.
 4. Appropriately labels the data set with descriptive variable names.
-  * Done - I used _identity.id_ and _activity_ for the two id columns.  I left the feature variable names as is.
+  * Done - I used _subject.id_ and _activity_ for the two id columns.  
+           I left the feature variable names intact.  There are many of them, approximately 80.  They are descriptive enough for someone familiar with the data.  Modifying them would require a lookup table.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
   * Done - please see **final_summary.csv**
 
