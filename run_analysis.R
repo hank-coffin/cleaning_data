@@ -129,16 +129,18 @@ final.summary <- dcast( final.melted, subject.id+activity ~ variable, mean)
 
 # write the final data.frames out as .csv files
 #
-write.csv( final.summary, "./data/final_summary.csv" )
-write.csv( final,         "./data/final.csv"         )
+#write.csv( final,         "./final.csv"         )    # this one is intermediate
+write.csv( final.summary, "./final_summary.csv" )    # this is the file which is submitted
 
 # read files which were just written
-# review.final.summary <- read.csv(    "./data/final_summary.csv", header = TRUE )
-# review.final         <- read.csv(    "./data/final.csv",         header = TRUE )
+#
+# review.final <- read.csv( "./final.csv",  header = TRUE )
+review.final.summary <- read.csv(    "./final_summary.csv", header = TRUE )
 
 # cleanup, leaving final.summary and final
 #
-rm( activity, 
+rm( final,
+    activity, 
     measurements.mean.std, 
     measurements, 
     activity.id, 
