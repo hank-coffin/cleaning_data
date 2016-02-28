@@ -1,5 +1,5 @@
 # Getting and Cleaning Data Course Project
-February 27, 2016
+_February 27, 2016_
 
 ## Overview
 This project reads several data files, combines them, filters out unwanted measurements, and finally summarizes the data.
